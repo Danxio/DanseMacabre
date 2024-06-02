@@ -39,6 +39,8 @@ float speed_y = 0;//[radians/s]
 GLuint tex;
 
 //Tutaj podajcie bezpośrednią ścieżkę do pliku ze szkieletem, bo projekty w vs potrafią zmieniać miejsce uruchomienia i to jest irytujące
+// Model nie należy do nas, jest własnością człowieka z internetu. Link do prawowitego właściciela:
+// https://www.turbosquid.com/3d-models/body-skeleton-blend-free/659093
 Importuj bones = Importuj(std::string("C:/Users/Daniel/Downloads/aSkeleton/Skeleton.fbx"));
 
 //Error processing callback procedure
